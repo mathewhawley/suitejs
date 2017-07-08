@@ -1,12 +1,25 @@
 {
   "name": "suite",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "cm": "git-cz"
+  },
   "devDependencies": {
+    "chalk": "2.0.1",
+    "commitizen": "2.9.6",
+    "cz-customizable": "5.0.0",
     "lerna": "2.0.0-rc.5"
   },
   "devEngines": {
     "node": ">=8.0.0",
     "npm": ">=5.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "./.cz-config.js"
+    }
   }
 }
