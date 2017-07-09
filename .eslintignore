@@ -1,0 +1,12 @@
+# test coverage and results
+coverage/
+
+# dependency directories
+node_modules/
+
+# compiled asset directories
+build/
+dist/
+
+# third-party
+vendor/

@@ -16,6 +16,9 @@ dist/
 .npm
 *.tgz
 
+# eslint
+.eslintcache
+
 # environment variable files
 .env
 

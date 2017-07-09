@@ -1,4 +1,4 @@
-const chalk = require('chalk');
+var chalk = require('chalk');
 
 var packageScopes = [];
 var otherScopes = ['root'];

@@ -1,0 +1,31 @@
+{
+  "root": true,
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "plugins": [
+    "prettier"
+  ],
+  "extends": [
+    "standard",
+    "prettier"
+  ],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "es5",
+        "singleQuote": true
+      }
+    ]
+  }
+}
