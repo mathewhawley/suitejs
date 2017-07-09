@@ -1,5 +1,5 @@
 {
-  "name": "suite",
+  "name": "suitejs",
   "private": true,
   "scripts": {
     "cm": "git-cz",
