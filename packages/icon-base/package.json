@@ -1,0 +1,32 @@
+{
+  "name": "@suitejs/icon-base",
+  "version": "0.0.0",
+  "description": "base component for react svg icons",
+  "author": "Mathew Hawley <mathew@mathewhawley.com>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "keywords": [
+    "icons",
+    "react",
+    "svg",
+    "ui",
+    "javascript"
+  ],
+  "scripts": {
+    "build": "babel src/ --out-dir lib/ --ignore spec.js",
+    "clean": "rm -rf lib/ coverage/",
+    "lint": "eslint . --cache --ext js,jsx --ignore-path ../../.eslintignore",
+    "prepublish": "npm run clean && npm run lint && npm run test && npm run build",
+    "test": "jest --runInBand",
+    "test:watch": "jest --runInBand --watch",
+    "test:coverage": "jest --runInBand --coverage"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.0.0",
+    "react": "^15.0.0",
+    "react-dom": "^15.0.0"
+  },
+  "files": [
+    "lib/"
+  ]
+}
