@@ -3,13 +3,20 @@
   "private": true,
   "scripts": {
     "cm": "git-cz",
-    "precommit": "lint-staged",
-    "pretty": "prettier \"**/*.{js,jsx}\" --write --trailing-comma=es5 --single-quote"
+    "precommit": "lint-staged"
   },
   "devDependencies": {
+    "babel-cli": "6.24.1",
+    "babel-core": "6.25.0",
+    "babel-eslint": "7.2.3",
+    "babel-jest": "20.0.3",
+    "babel-plugin-transform-object-rest-spread": "6.23.0",
+    "babel-preset-latest": "6.24.1",
+    "babel-preset-react": "6.24.1",
     "chalk": "2.0.1",
     "commitizen": "2.9.6",
     "cz-customizable": "5.0.0",
+    "enzyme": "2.9.1",
     "eslint": "4.2.0",
     "eslint-config-prettier": "2.3.0",
     "eslint-config-standard": "10.2.1",
@@ -17,11 +24,17 @@
     "eslint-plugin-node": "5.1.0",
     "eslint-plugin-prettier": "2.1.2",
     "eslint-plugin-promise": "3.5.0",
+    "eslint-plugin-react": "7.1.0",
     "eslint-plugin-standard": "3.0.1",
     "husky": "0.14.3",
+    "jest": "20.0.4",
     "lerna": "2.0.0",
     "lint-staged": "4.0.1",
-    "prettier": "1.5.2"
+    "prettier": "1.5.3",
+    "prop-types": "15.5.10",
+    "react": "15.6.1",
+    "react-dom": "15.6.1",
+    "react-test-renderer": "15.6.1"
   },
   "devEngines": {
     "node": ">=8.0.0",

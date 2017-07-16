@@ -11,6 +11,7 @@ node_modules/
 # compiled asset directories
 build/
 dist/
+lib/
 
 # npm files
 .npm

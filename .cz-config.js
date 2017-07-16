@@ -3,12 +3,12 @@ var path = require('path');
 var chalk = require('chalk');
 
 /**
- * Returns a list of all directories inside a given directory
+ * Returns a list of all directories inside a given directory, including hidden
  *
- * @param {string} srcPath - A directory path
- * @returns {string[]} All directories in srcPath, including hidden
+ * @param {String} srcPath A directory path
+ * @returns {String[]} List of directories in srcPath
  */
-function getDirectories(srcPath) {
+function getDirs(srcPath) {
   return fs.readdirSync(srcPath).filter(function isDirectory(file) {
     return fs.lstatSync(path.join(srcPath, file)).isDirectory();
   });
@@ -16,18 +16,18 @@ function getDirectories(srcPath) {
 
 /**
  * Takes a string and colorizes characters up to, but not including the first
- * colon (:) character. If provided, the color argument must exist on the
- * 'chalk' API: https://github.com/chalk/chalk#colors
+ * ':' character. If provided, the color argument must exist on the 'chalk' API:
+ * https://github.com/chalk/chalk#colors
  *
- * @param {string} str - Any text string of the pattern 'foo: bar'
- * @param {string} [color='green'] - Any color that exists in the 'chalk' package
- * @returns {string}
+ * @param {String} str A string of the pattern: "foo: bar"
+ * @param {String} [color='green'] A color name
+ * @returns {String}
  */
 function colorizeCommitType(str, color = 'green') {
   return str.replace(/(^.+?)(:)/, chalk[color]('$1') + '$2');
 }
 
-var packageScopes = getDirectories('./packages');
+var packageScopes = getDirs('./packages');
 var otherScopes = ['root'];
 
 module.exports = {
