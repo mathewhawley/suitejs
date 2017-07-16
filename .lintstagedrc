@@ -1,7 +1,8 @@
 {
   "*.{js,jsx}": [
-    "prettier --write --trailing-comma=es5 --single-quote",
+    "prettier --trailing-comma=es5 --single-quote --write",
     "git add",
-    "eslint"
+    "eslint",
+    "jest --findRelatedTests"
   ]
 }

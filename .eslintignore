@@ -7,6 +7,7 @@ node_modules/
 # compiled asset directories
 build/
 dist/
+lib/
 
 # third-party
 vendor/

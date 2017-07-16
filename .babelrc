@@ -1,0 +1,16 @@
+{
+  "env": {
+    "production": {
+      "presets": [["latest", { "es2015": { "modules": false } }], "react"],
+      "plugins": ["transform-object-rest-spread"]
+    },
+    "development": {
+      "presets": [["latest", { "es2015": { "modules": false } }], "react"],
+      "plugins": ["transform-object-rest-spread"]
+    },
+    "test": {
+      "presets": ["latest", "react"],
+      "plugins": ["transform-object-rest-spread"]
+    }
+  }
+}
