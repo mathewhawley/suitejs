@@ -1,6 +1,13 @@
 {
   "lerna": "2.0.0",
+  "version": "independent",
   "npmClient": "npm",
-  "packages": ["packages/*"],
-  "version": "independent"
+  "packages": [
+    "packages/*"
+  ],
+  "commands": {
+    "publish": {
+      "conventionalCommits": true
+    }
+  }
 }
