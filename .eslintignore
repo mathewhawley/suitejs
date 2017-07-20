@@ -5,8 +5,8 @@ coverage/
 node_modules/
 
 # compiled asset directories
-dist/
-lib/
+es/
+cjs/
 
 # third-party
 vendor/

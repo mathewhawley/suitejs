@@ -1,12 +1,6 @@
 module.exports = {
   roots: ['<rootDir>/src/'],
-  coveragePathIgnorePatterns: [
-    '/node_modules/',
-    '/lib/',
-    '/dist/',
-    '/build/',
-    '/coverage/',
-  ],
+  coveragePathIgnorePatterns: ['/node_modules/', '/es/', '/cjs/', '/coverage/'],
   coverageThreshold: {
     global: {
       branches: 100,

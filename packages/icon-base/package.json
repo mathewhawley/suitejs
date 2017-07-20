@@ -4,7 +4,9 @@
   "description": "base component for react svg icons",
   "author": "Mathew Hawley <mathew@mathewhawley.com>",
   "license": "MIT",
-  "main": "lib/index.js",
+  "main": "cjs/index.js",
+  "module": "es/index.js",
+  "jsnext:main": "es/index.js",
   "keywords": [
     "icons",
     "react",
@@ -12,21 +14,32 @@
     "ui",
     "javascript"
   ],
-  "scripts": {
-    "build": "babel src/ --out-dir lib/ --ignore spec.js",
-    "clean": "rm -rf lib/ coverage/",
-    "lint": "eslint . --cache --ext js,jsx --ignore-path ../../.eslintignore",
-    "prepublish": "npm run clean && npm run lint && npm run test && npm run build",
-    "test": "jest --runInBand",
-    "test:watch": "jest --runInBand --watch",
-    "test:coverage": "jest --runInBand --coverage"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suitejs/suitejs.git"
   },
-  "peerDependencies": {
-    "prop-types": "^15.0.0",
-    "react": "^15.0.0",
-    "react-dom": "^15.0.0"
+  "bugs": {
+    "url": "https://github.com/suitejs/suitejs/issues"
   },
   "files": [
-    "lib/"
-  ]
+    "cjs",
+    "es"
+  ],
+  "scripts": {
+    "build:cjs": "BABEL_ENV=cjs babel src/ --out-dir cjs/ --ignore spec.js",
+    "build:es": "BABEL_ENV=es babel src/ --out-dir es/ --ignore spec.js",
+    "clean": "rimraf es/ cjs/",
+    "lint": "eslint src/ --cache --ext js,jsx",
+    "prepublish": "npm-run-all clean --parallel lint test build:*",
+    "test": "jest --runInBand",
+    "test:coverage": "jest --runInBand --coverage",
+    "test:watch": "jest --runInBand --watch"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.7"
+  },
+  "peerDependencies": {
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
+  }
 }
