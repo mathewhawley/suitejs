@@ -24,6 +24,12 @@ function CheckBox(props) {
 }
 ```
 
+If you are working with **CommonJS** modules, you will need to access the `default` property:
+
+```js
+var IconBase = require('@suitejs/icon-base').default;
+```
+
 ## Props
 
 Any props specified will be passed through and applied to the root `<svg>` element. Several properties come with defaults which can be overriden:
@@ -61,7 +67,7 @@ Default:
 
 ```js
 {
-  verticalAlign: 'middle'
+  verticalAlign: 'text-bottom'
 }
 ```
 

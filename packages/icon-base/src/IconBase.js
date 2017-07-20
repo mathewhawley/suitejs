@@ -8,7 +8,7 @@ function IconBase({ children, fill, height, size, style, width, ...rest }) {
       fill={fill}
       height={height || size}
       style={{
-        verticalAlign: 'middle',
+        verticalAlign: 'text-bottom',
         ...style,
       }}
       width={width || size}
