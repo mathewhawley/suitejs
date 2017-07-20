@@ -9,7 +9,7 @@ describe('<IconBase />', () => {
     size: '1em',
   };
   var defaultStyle = {
-    verticalAlign: 'middle',
+    verticalAlign: 'text-bottom',
   };
 
   beforeEach(() => {
