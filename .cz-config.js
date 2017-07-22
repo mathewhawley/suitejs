@@ -64,6 +64,12 @@ module.exports = {
       value: 'perf',
       name: colorizeCommitType('perf: changes that improve performance'),
     },
+    {
+      value: 'release',
+      name: colorizeCommitType(
+        'release: version bumps, change log updates and release prep'
+      ),
+    },
   ],
   scopes: [...packageScopes, ...otherScopes],
   scopeOverrides: {
@@ -72,7 +78,8 @@ module.exports = {
     refactor: packageScopes,
     test: packageScopes,
     perf: packageScopes,
+    release: packageScopes,
   },
-  allowCustomScopes: true,
+  allowCustomScopes: false,
   allowBreakingChanges: ['feat', 'fix'],
 };
