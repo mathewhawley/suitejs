@@ -1,6 +1,6 @@
 {
   "name": "@suitejs/icon-base",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "base component for react svg icons",
   "author": "Mathew Hawley <mathew@mathewhawley.com>",
   "license": "MIT",
