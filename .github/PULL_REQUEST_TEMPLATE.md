@@ -1,16 +1,13 @@
-### What does this PR address?
-
-- [ ] Feature
-- [ ] Bug fix
-- [ ] Refactor
-- [ ] Tests
-- [ ] Documentation
-- [ ] Chore
-- [ ] Performance
-
 ### Description
 
+### Fixes
+
+<!-- list out issue numbers e.g. #102, #2 -->
+<!-- feel free to remove or leave blank if this doesn't apply -->
+
 ### Breaking changes
+
+<!-- feel free to remove or leave blank if this doesn't apply -->
 
 ### Checklist
 
