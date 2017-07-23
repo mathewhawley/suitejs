@@ -1,5 +1,7 @@
 # icon-base
 
+[![npm (scoped)](https://img.shields.io/npm/v/@suitejs/icon-base.svg?style=flat-square&maxAge=86400)](https://www.npmjs.com/package/@suitejs/icon-base)
+
 Base component for creating React SVG icons.
 
 ## Installation

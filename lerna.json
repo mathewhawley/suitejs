@@ -7,7 +7,10 @@
   ],
   "commands": {
     "publish": {
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "ignore": [
+        "*.md"
+      ]
     }
   }
 }
