@@ -9,17 +9,17 @@ A collection of useful React components, built for modern browsers.
 
 | Package | Version | Dependencies | DevDependencies |
 | --- | --- | --- | --- |
-| [`@suitejs/icon-base`](https://github.com/suitejs/suitejs/tree/master/packages/icon-base) | [![npm (scoped)](https://img.shields.io/npm/v/@suitejs/icon-base.svg?style=flat-square&maxAge=86400)](https://www.npmjs.com/package/@suitejs/icon-base) | [![David](https://img.shields.io/david/suitejs/suitejs.svg?path=packages/icon-base&style=flat-square&maxAge=86400)](https://david-dm.org/suitejs/suitejs?path=packages/icon-base)
+| [`@suitejs/icon-base`](https://github.com/suitejs/suitejs/tree/master/packages/icon-base) | [![npm (scoped)](https://img.shields.io/npm/v/@suitejs/icon-base.svg?style=flat-square&maxAge=86400)](https://www.npmjs.com/package/@suitejs/icon-base) | [![David](https://david-dm.org/suitejs/suitejs/status.svg?path=packages/icon-base&style=flat-square&maxAge=86400)](https://david-dm.org/suitejs/suitejs?path=packages/icon-base)
 
-[Back to top](#top)
-
-## Installing / Getting started
+## Introduction
 
 This is a [Lerna](https://lernajs.io/) based repository, therefore it will be necessary to be comfortable with this tool.
 
 There are a few key areas where some small deviations to the [Lerna](https://lernajs.io/) workflow have been made. These will be made clear throughout this document (⚠️).
 
 If you want an overview of the key technologies used in this codebase before getting set up, check out the [Developing](#developing) section first.
+
+## Installing / Getting started
 
 First up, clone the repository and change in to the root directory.
 
