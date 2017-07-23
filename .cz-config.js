@@ -73,6 +73,6 @@ module.exports = {
     test: packageScopes,
     perf: packageScopes,
   },
-  allowCustomScopes: true,
+  allowCustomScopes: false,
   allowBreakingChanges: ['feat', 'fix'],
 };
