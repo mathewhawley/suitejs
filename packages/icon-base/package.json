@@ -33,7 +33,6 @@
     "test": "jest --runInBand",
     "test:coverage": "jest --runInBand --coverage",
     "test:watch": "jest --runInBand --watch",
-    "prevalidate": "npm install",
     "validate": "npm-run-all clean --parallel lint test build:*"
   },
   "dependencies": {
