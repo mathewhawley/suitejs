@@ -1,26 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function IconBase({ children, fill, height, size, style, width, ...rest }) {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      fill={fill}
-      height={height || size}
-      style={{
-        verticalAlign: 'text-bottom',
-        ...style,
-      }}
-      width={width || size}
-      aria-hidden
-      {...rest}
-    >
-      {children}
-    </svg>
-  );
-}
+const XMLNS_SVG = 'http://www.w3.org/2000/svg';
 
-IconBase.propTypes = {
+var propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.element,
     PropTypes.arrayOf(PropTypes.element.isRequired),
@@ -32,9 +15,51 @@ IconBase.propTypes = {
   width: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
-IconBase.defaultProps = {
-  fill: 'currentColor',
-  size: '1em',
+var contextTypes = {
+  iconBase: PropTypes.shape({
+    fill: PropTypes.string,
+    height: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+    size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+    style: PropTypes.object,
+    width: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  }),
 };
+
+function IconBase(
+  { children, fill, height, size, style, width, ...rest },
+  {
+    iconBase: {
+      fill: ctxFill = 'currentColor',
+      height: ctxHeight,
+      size: ctxSize = '1em',
+      style: ctxStyle = {},
+      width: ctxWidth,
+      ...ctxRest
+    } = {},
+  }
+) {
+  return (
+    <svg
+      version="1.1"
+      xmlns={XMLNS_SVG}
+      fill={fill || ctxFill}
+      height={height || size || ctxHeight || ctxSize}
+      style={{
+        verticalAlign: 'text-bottom',
+        ...ctxStyle,
+        ...style,
+      }}
+      width={width || size || ctxWidth || ctxSize}
+      aria-hidden
+      {...ctxRest}
+      {...rest}
+    >
+      {children}
+    </svg>
+  );
+}
+
+IconBase.propTypes = propTypes;
+IconBase.contextTypes = contextTypes;
 
 export default IconBase;
