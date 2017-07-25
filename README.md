@@ -1,5 +1,4 @@
-<a name="top"></a>
-# SuiteJS 👌
+# SuiteJS 👌 <a name="top"></a>
 
 [![David](https://img.shields.io/david/dev/suitejs/suitejs.svg?style=flat-square)](https://david-dm.org/suitejs/suitejs?type=dev) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/) [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com)  [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
