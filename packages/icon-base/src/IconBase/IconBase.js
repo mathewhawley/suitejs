@@ -26,7 +26,7 @@ var contextTypes = {
 };
 
 function IconBase(
-  { children, fill, height, size, style, width, ...rest },
+  { children, fill, height, size, style = {}, width, ...rest },
   {
     iconBase: {
       fill: ctxFill = 'currentColor',
