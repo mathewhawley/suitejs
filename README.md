@@ -1,6 +1,7 @@
 # SuiteJS 👌 <a name="top"></a>
 
-[![David](https://img.shields.io/david/dev/suitejs/suitejs.svg?style=flat-square)](https://david-dm.org/suitejs/suitejs?type=dev) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/) [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com)  [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![Travis branch](https://img.shields.io/travis/suitejs/suitejs/master.svg?style=flat-square)](https://travis-ci.org/suitejs/suitejs) [![David](https://img.shields.io/david/dev/suitejs/suitejs.svg?style=flat-square)](https://david-dm.org/suitejs/suitejs?type=dev)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/) [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com)  [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 A collection of useful React components, built for modern browsers.
 
@@ -10,7 +11,7 @@ A collection of useful React components, built for modern browsers.
 
 | Package | Version | Dependencies | DevDependencies |
 | --- | --- | --- | --- |
-| [`@suitejs/icon-base`](https://github.com/suitejs/suitejs/tree/master/packages/icon-base) | [![npm (scoped)](https://img.shields.io/npm/v/@suitejs/icon-base.svg?style=flat-square&maxAge=86400)](https://www.npmjs.com/package/@suitejs/icon-base) | [![David](https://david-dm.org/suitejs/suitejs/status.svg?path=packages/icon-base&style=flat-square&maxAge=86400)](https://david-dm.org/suitejs/suitejs?path=packages/icon-base)
+| [`@suitejs/icon-base`](https://github.com/suitejs/suitejs/tree/master/packages/icon-base) | [![npm (scoped)](https://img.shields.io/npm/v/@suitejs/icon-base.svg?style=flat-square)](https://www.npmjs.com/package/@suitejs/icon-base) | [![David](https://david-dm.org/suitejs/suitejs/status.svg?path=packages/icon-base&style=flat-square)](https://david-dm.org/suitejs/suitejs?path=packages/icon-base)
 
 <a name="built-with"></a>
 ## Built with
