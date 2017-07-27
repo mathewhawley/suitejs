@@ -1,6 +1,14 @@
 import { Component, Children } from 'react';
 import PropTypes from 'prop-types';
 
+var propTypes = {
+  children: PropTypes.element.isRequired,
+};
+
+var childContextTypes = {
+  iconBase: PropTypes.object,
+};
+
 class IconProvider extends Component {
   getChildContext() {
     var { children, ...rest } = this.props;
@@ -14,18 +22,7 @@ class IconProvider extends Component {
   }
 }
 
-IconProvider.propTypes = {
-  children: PropTypes.element.isRequired,
-};
-
-IconProvider.childContextTypes = {
-  iconBase: PropTypes.shape({
-    fill: PropTypes.string,
-    height: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-    size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-    style: PropTypes.object,
-    width: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-  }),
-};
+IconProvider.propTypes = propTypes;
+IconProvider.childContextTypes = childContextTypes;
 
 export default IconProvider;
