@@ -1,0 +1,33 @@
+{
+  "name": "@suitejs/icons",
+  "version": "0.0.0",
+  "description": "svg icon sets for react",
+  "author": "Mathew Hawley <mathew@mathewhawley.com>",
+  "license": "MIT",
+  "keywords": [
+    "icons",
+    "react",
+    "svg",
+    "ui",
+    "javascript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suitejs/suitejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/suitejs/suitejs/issues"
+  },
+  "scripts": {
+    "test": "jest --runInBand",
+    "test:coverage": "jest --runInBand --coverage",
+    "test:watch": "jest --runInBand --watch"
+  },
+  "peerDependencies": {
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
