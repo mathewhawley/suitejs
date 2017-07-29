@@ -12,3 +12,7 @@ script:
   - lerna run build:es --parallel
 git:
   depth: 10
+notifications:
+  email:
+    on_failure: always
+    on_success: never
