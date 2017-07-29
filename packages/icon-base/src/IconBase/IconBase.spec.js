@@ -7,7 +7,7 @@ describe('<IconBase />', () => {
     var wrapper;
     var defaultAttrs = {
       fill: 'currentColor',
-      size: '1em',
+      size: '1.15em',
     };
     var defaultStyle = {
       verticalAlign: 'text-bottom',

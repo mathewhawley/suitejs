@@ -29,7 +29,7 @@ function CheckBox(props) {
 Output (with [defaults](#defaults) applied):
 
 ```html
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="1em" width="1em" aria-hidden="true" viewBox="0 0 48 48" style="vertical-align: text-bottom;">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="1.15em" width="1.15em" aria-hidden="true" viewBox="0 0 48 48" style="vertical-align: text-bottom;">
   <title>check box</title>
   <path d="M38 6H10c-2.21 0-4 1.79-4 4v28c0 2.21 1.79 4 4 4h28c2.21 0 4-1.79 4-4V10c0-2.21-1.79-4-4-4zM20 34L10 24l2.83-2.83L20 28.34l15.17-15.17L38 16 20 34z"></path>
 </svg>
@@ -58,7 +58,7 @@ Applied to the `fill` attribute.
 #### size
 
 Type: `string`|`number`<br>
-Default: `1em`
+Default: `1.15em`
 
 Applied to the `width` and `height` attributes.
 
