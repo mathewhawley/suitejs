@@ -24,6 +24,7 @@ describe('<IconBase />', () => {
 
     it('should correctly set default attributes', () => {
       var expected = {
+        version: '1.1',
         xmlns: 'http://www.w3.org/2000/svg',
         fill: defaultAttrs.fill,
         height: defaultAttrs.size,
@@ -114,7 +115,7 @@ describe('<IconBase />', () => {
 
     it('should customise fill', () => {
       wrapper.setContext({
-        iconBase: {
+        sjsIconBase: {
           fill: '#cccccc',
         },
       });
@@ -129,7 +130,7 @@ describe('<IconBase />', () => {
 
     it('should customise width and height via size', () => {
       wrapper.setContext({
-        iconBase: {
+        sjsIconBase: {
           size: '1.5em',
         },
       });
@@ -146,7 +147,7 @@ describe('<IconBase />', () => {
 
     it('should customise height', () => {
       wrapper.setContext({
-        iconBase: {
+        sjsIconBase: {
           size: '14px',
           height: 2,
         },
@@ -162,7 +163,7 @@ describe('<IconBase />', () => {
 
     it('should customise width', () => {
       wrapper.setContext({
-        iconBase: {
+        sjsIconBase: {
           size: 20,
           width: '1.15em',
         },
@@ -178,7 +179,7 @@ describe('<IconBase />', () => {
 
     it('should customise style', () => {
       wrapper.setContext({
-        iconBase: {
+        sjsIconBase: {
           style: {
             verticalAlign: 'text-top',
             backgroundColor: '#cccccc',
@@ -204,7 +205,7 @@ describe('<IconBase />', () => {
 
     it('should customise rest', () => {
       wrapper.setContext({
-        iconBase: {
+        sjsIconBase: {
           'data-icon': true,
           className: 'icon',
           'aria-hidden': false,
