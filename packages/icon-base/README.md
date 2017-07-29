@@ -1,6 +1,6 @@
 # icon-base <a name="top"></a>
 
-[![npm (scoped)](https://img.shields.io/npm/v/@suitejs/icon-base.svg?style=flat-square&maxAge=86400)](https://www.npmjs.com/package/@suitejs/icon-base) [![David](https://david-dm.org/suitejs/suitejs/status.svg?path=packages/icon-base&style=flat-square&maxAge=86400)](https://david-dm.org/suitejs/suitejs?path=packages/icon-base)
+[![npm (scoped)](https://img.shields.io/npm/v/@suitejs/icon-base.svg?style=flat-square)](https://www.npmjs.com/package/@suitejs/icon-base) [![David](https://david-dm.org/suitejs/suitejs/status.svg?path=packages/icon-base&style=flat-square)](https://david-dm.org/suitejs/suitejs?path=packages/icon-base)
 
 Base component for creating React SVG icons.
 
@@ -66,13 +66,13 @@ Applied to the `width` and `height` attributes.
 
 Type: `number`|`string`
 
-Applied to the `height` attribute. Overrides **size**.
+Applied to the `height` attribute. Takes precendence over **size**.
 
 #### width
 
 Type: `number`|`string`
 
-Applied to the `width` attribute. Overrides **size**.
+Applied to the `width` attribute. Takes precendence over **size**.
 
 #### style
 
@@ -128,10 +128,10 @@ function App() {
 export default App;
 ```
 
-Context can be overriden inline via `props`:
+Global settings can be overriden inline:
 
 ```js
-<CheckBox fill="#000000" size="0.75em" />
+<CheckBox fill="#000000" size="0.75em" aria-hidden={false} />
 ```
 
 If you are working with **CommonJS** modules, you will need to access the `IconProvider` property:

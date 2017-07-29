@@ -6,14 +6,14 @@ var propTypes = {
 };
 
 var childContextTypes = {
-  iconBase: PropTypes.object,
+  sjsIconBase: PropTypes.object,
 };
 
 class IconProvider extends Component {
   getChildContext() {
     var { children, ...rest } = this.props;
     return {
-      iconBase: rest,
+      sjsIconBase: rest,
     };
   }
 

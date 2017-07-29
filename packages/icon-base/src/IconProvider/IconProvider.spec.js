@@ -42,7 +42,7 @@ describe('<IconProvider />', () => {
     }
 
     Child.contextTypes = {
-      iconBase: PropTypes.object,
+      sjsIconBase: PropTypes.object,
     };
 
     var props = {
@@ -57,6 +57,6 @@ describe('<IconProvider />', () => {
       </IconProvider>
     );
 
-    expect(wrapper.find(Child).node.context).toEqual({ iconBase: props });
+    expect(wrapper.find(Child).node.context).toEqual({ sjsIconBase: props });
   });
 });

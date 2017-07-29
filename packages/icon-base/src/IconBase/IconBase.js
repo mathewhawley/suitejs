@@ -35,7 +35,7 @@ var propTypes = {
 };
 
 var contextTypes = {
-  iconBase: PropTypes.shape({
+  sjsIconBase: PropTypes.shape({
     fill: PropTypes.string,
     height: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
     size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -47,7 +47,7 @@ var contextTypes = {
 function IconBase(
   { children, fill, height, size, style = {}, width, ...rest },
   {
-    iconBase: {
+    sjsIconBase: {
       fill: ctxFill = 'currentColor',
       height: ctxHeight,
       size: ctxSize = '1em',
