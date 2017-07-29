@@ -50,7 +50,7 @@ function IconBase(
     sjsIconBase: {
       fill: ctxFill = 'currentColor',
       height: ctxHeight,
-      size: ctxSize = '1em',
+      size: ctxSize = '1.15em',
       style: ctxStyle = {},
       width: ctxWidth,
       ...ctxRest
