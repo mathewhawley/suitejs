@@ -26,6 +26,7 @@
     "eslint-plugin-promise": "3.5.0",
     "eslint-plugin-react": "7.1.0",
     "eslint-plugin-standard": "3.0.1",
+    "fs-extra": "4.0.0",
     "husky": "0.14.3",
     "jest": "20.0.4",
     "lerna": "2.0.0",
@@ -35,7 +36,9 @@
     "react": "15.6.1",
     "react-dom": "15.6.1",
     "react-test-renderer": "15.6.1",
-    "rimraf": "2.6.1"
+    "rimraf": "2.6.1",
+    "svgo": "0.7.2",
+    "walk": "2.3.9"
   },
   "devEngines": {
     "node": ">=8.0.0",
