@@ -3,13 +3,15 @@ node_js:
   - '8'
 install:
   - npm install
-  - npm install -g lerna@2.0.0
+  - npm install -g lerna@2.0.0 codecov
   - lerna bootstrap
 script:
   - lerna run lint --parallel
   - lerna run test:coverage --parallel
   - lerna run build:cjs --parallel
   - lerna run build:es --parallel
+after_success:
+  - codecov
 git:
   depth: 10
 notifications:
