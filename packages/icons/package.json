@@ -27,8 +27,6 @@
     "build:es": "BABEL_ENV=es babel src/ --out-dir . --ignore spec.js",
     "clean": "rimraf lib/ sp/",
     "lint": "eslint src/ --cache --ext js,jsx",
-    "presvgo": "rimraf svg/optim/",
-    "svgo": "node scripts/optimize-svgs",
     "pregen": "rimraf src/",
     "gen": "node scripts/generate-components",
     "prevalidate": "npm run gen",

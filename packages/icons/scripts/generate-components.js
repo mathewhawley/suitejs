@@ -5,7 +5,7 @@ var cheerio = require('cheerio');
 var templates = require('./templates');
 var logger = require('./logger');
 
-const DIR_INPUT = path.join(process.cwd(), 'svg/optim');
+const DIR_INPUT = path.join(process.cwd(), 'svg');
 const DIR_OUTPUT = path.join(process.cwd(), 'src');
 
 var walker = walk.walk(DIR_INPUT, { followLinks: false });

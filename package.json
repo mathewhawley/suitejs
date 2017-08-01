@@ -38,7 +38,6 @@
     "react-dom": "15.6.1",
     "react-test-renderer": "15.6.1",
     "rimraf": "2.6.1",
-    "svgo": "0.7.2",
     "walk": "2.3.9"
   },
   "devEngines": {
