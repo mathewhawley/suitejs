@@ -18,12 +18,24 @@
   "bugs": {
     "url": "https://github.com/suitejs/suitejs/issues"
   },
+  "files": [
+    "lib",
+    "sp"
+  ],
   "scripts": {
+    "build:cjs": "BABEL_ENV=cjs babel src/ --out-dir lib/ --ignore spec.js",
+    "build:es": "BABEL_ENV=es babel src/ --out-dir . --ignore spec.js",
+    "clean": "rimraf lib/ sp/",
+    "lint": "eslint src/ --cache --ext js,jsx",
     "presvgo": "rimraf svg/optim/",
-    "svgo": "node scripts/svg-optim",
-    "test": "jest --runInBand",
-    "test:coverage": "jest --runInBand --coverage",
-    "test:watch": "jest --runInBand --watch"
+    "svgo": "node scripts/optimize-svgs",
+    "pregen": "rimraf src/",
+    "gen": "node scripts/generate-components",
+    "prevalidate": "npm run gen",
+    "validate": "npm-run-all clean --parallel lint build:*"
+  },
+  "dependencies": {
+    "@suitejs/icon-base": "^0.2.1"
   },
   "peerDependencies": {
     "react": "^15.3.0",
