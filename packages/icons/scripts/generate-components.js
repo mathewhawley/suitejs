@@ -104,17 +104,17 @@ function processSvgFile(pathname, filename) {
  * https://github.com/jprichardson/node-fs-extra/blob/master/docs/outputFile.md
  *
  * @param {String} outFile file path
- * @param {String} filename name of file
+ * @param {String} name name of file
  * @return {Promise}
  */
-function writeFile(outFile, filename) {
+function writeFile(outFile, name) {
   return function readFileCb(err, data) {
     if (err) {
       logger.error('readFileCb', err);
       return;
     }
     fs
-      .outputFile(outFile, buildComponent(data, filename))
+      .outputFile(outFile, buildComponent(data, name))
       .catch(function outputFileError(err) {
         logger.error('outputFileError', err);
       });
