@@ -4,7 +4,7 @@ node_js:
 install:
   - npm install
   - npm install -g lerna@2.0.0 codecov
-  - lerna bootstrap
+  - lerna exec --parallel -- npm install
 script:
   - lerna run lint --parallel
   - lerna run test:coverage --parallel
