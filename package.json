@@ -16,6 +16,7 @@
     "chalk": "2.0.1",
     "cheerio": "1.0.0-rc.2",
     "commitizen": "2.9.6",
+    "common-tags": "1.4.0",
     "cz-customizable": "5.0.0",
     "enzyme": "2.9.1",
     "eslint": "4.2.0",

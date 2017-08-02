@@ -27,8 +27,8 @@
     "build:es": "BABEL_ENV=es babel src/ --out-dir . --ignore spec.js",
     "clean": "rimraf lib/ sp/",
     "lint": "eslint src/ --cache --ext js,jsx",
-    "pregen": "rimraf src/",
-    "gen": "node scripts/generate-components",
+    "pregen": "rimraf src/* docs/*",
+    "gen": "node scripts/generate",
     "prevalidate": "npm run gen",
     "validate": "npm-run-all clean --parallel lint build:*"
   },

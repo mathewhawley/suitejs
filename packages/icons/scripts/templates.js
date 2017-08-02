@@ -1,9 +1,45 @@
 var path = require('path');
 var prettier = require('prettier');
+var commonTags = require('common-tags');
+
+const CDN = 'https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/';
 
 var prettierOpts = {
   singleQuote: true,
   trailingComma: 'es5',
+};
+
+/**
+ * Populates the head of an icon 'map' markdown file
+ *
+ * @param {String} title name of the icon set
+ * @returns {String}
+ */
+exports.iconMap = function iconMapTemplate(title) {
+  return commonTags.stripIndents`
+    # ${title}
+
+    | Icon | Name | Location |
+    | --- | --- | --- |
+  `;
+};
+
+/**
+ * Builds a markdown table row for an icon set
+ *
+ * @example
+ * | ![SpFacebook](https:// ... ) | `SpFacebook` | `@suitejs/icons/sp` |
+ *
+ * @param {String} filepath relative path to SVG file
+ * @param {String} iconName namespaced SVG file name
+ * @param {String} setName set that the icon belongs to
+ * @returns {String}
+ */
+exports.iconMapRow = function iconMapRowTemplate(filepath, iconName, setName) {
+  var img = `![${iconName}](${CDN}${filepath})`;
+  var exportedName = capitalize(iconName);
+  var importPath = `@suitejs/icons/${setName}`;
+  return `\n| ${img} | \`${exportedName}\` | \`${importPath}\` |`;
 };
 
 /**
@@ -36,7 +72,7 @@ exports.component = function componentTemplate(viewBox, name, children) {
  *
  * @param {String} rootDir directory this file sits in
  * @param {String} subDirs directories from rootDir to this file
- * @param {String} filename name of this file
+ * @param {String} name file name
  * @returns {String}
  */
 exports.exportStatement = function exportStatementTemplate(
