@@ -5,8 +5,8 @@ var chalk = require('chalk');
 /**
  * Returns a list of all directories inside a given directory, including hidden
  *
- * @param {String} srcPath A directory path
- * @returns {String[]} List of directories in srcPath
+ * @param {String} srcPath directory path
+ * @returns {String[]} directories in srcPath
  */
 function getDirs(srcPath) {
   return fs.readdirSync(srcPath).filter(function isDirectory(file) {
@@ -19,8 +19,8 @@ function getDirs(srcPath) {
  * ':' character. If provided, the color argument must exist on the 'chalk' API:
  * https://github.com/chalk/chalk#colors
  *
- * @param {String} str A string of the pattern: "foo: bar"
- * @param {String} [color='green'] A color name
+ * @param {String} str string of the pattern: "foo: bar"
+ * @param {String} [color='green'] color name
  * @returns {String}
  */
 function colorizeCommitType(str, color = 'green') {
