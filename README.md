@@ -11,7 +11,8 @@ A collection of useful React components, built for modern browsers.
 
 | Package | Version | Dependencies | DevDependencies |
 | --- | --- | --- | --- |
-| [`@suitejs/icon-base`](https://github.com/suitejs/suitejs/tree/master/packages/icon-base) | [![npm (scoped)](https://img.shields.io/npm/v/@suitejs/icon-base.svg?style=flat-square)](https://www.npmjs.com/package/@suitejs/icon-base) | [![David](https://david-dm.org/suitejs/suitejs/status.svg?path=packages/icon-base&style=flat-square)](https://david-dm.org/suitejs/suitejs?path=packages/icon-base)
+| [`@suitejs/icon-base`](https://github.com/suitejs/suitejs/tree/master/packages/icon-base) | [![npm (scoped)](https://img.shields.io/npm/v/@suitejs/icon-base.svg?style=flat-square)](https://www.npmjs.com/package/@suitejs/icon-base) | [![David](https://david-dm.org/suitejs/suitejs/status.svg?path=packages/icon-base&style=flat-square)](https://david-dm.org/suitejs/suitejs?path=packages/icon-base) |
+| [`@suitejs/icons`](https://github.com/suitejs/suitejs/tree/master/packages/icons) | [![npm (scoped)](https://img.shields.io/npm/v/@suitejs/icons.svg?style=flat-square)](https://www.npmjs.com/package/@suitejs/icons) | [![David](https://david-dm.org/suitejs/suitejs/status.svg?path=packages/icons&style=flat-square)](https://david-dm.org/suitejs/suitejs?path=packages/icons) |
 
 <a name="built-with"></a>
 ## Built with
