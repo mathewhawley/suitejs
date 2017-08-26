@@ -33,13 +33,13 @@ All exports are named - you can refer to the [docs](docs) for the full listings 
 If you are using **CommonJS** modules, you can access them like so:
 
 ```js
-var SpFacebook = require('@suitejs/icons/sp/lib').SpFacebook;
+var SpFacebook = require('@suitejs/icons/lib/sp').SpFacebook;
 ```
 
 or, if your environment supports ES6 destructuring syntax:
 
 ```js
-var { SpFacebook, SpYouTube } = require('@suitejs/icons/sp/lib');
+var { SpFacebook, SpYouTube } = require('@suitejs/icons/lib/sp');
 ```
 
 `icons` uses [`icon-base`](https://github.com/suitejs/suitejs/tree/master/packages/icon-base) to set common settings. You can configure global settings for all your icons via React's context API. You can roll your own 'provider', or use the [`IconProvider`](https://github.com/suitejs/suitejs/tree/master/packages/icon-base#global-configuration) from the [`icon-base`](https://github.com/suitejs/suitejs/tree/master/packages/icon-base) package.
