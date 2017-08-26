@@ -27,7 +27,7 @@ A collection of useful React components, built for modern browsers.
 <a name="prerequisites"></a>
 ## Prerequisites
 
-* [Lerna](https://lernajs.io/) v2.0.0
+* [Lerna](https://lernajs.io/) v2.1.0
 * [Node](https://nodejs.org/en/) v8.*
 * [NPM](https://www.npmjs.com/) v5.*
 * An eye for detail 🕵️
