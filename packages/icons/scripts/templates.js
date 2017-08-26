@@ -2,7 +2,8 @@ var path = require('path');
 var prettier = require('prettier');
 var commonTags = require('common-tags');
 
-const CDN = 'https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/';
+const CDN_URL =
+  'https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/';
 
 var prettierOpts = {
   singleQuote: true,
@@ -36,7 +37,7 @@ exports.iconMap = function iconMapTemplate(title) {
  * @returns {String}
  */
 exports.iconMapRow = function iconMapRowTemplate(filepath, iconName, setName) {
-  var img = `![${iconName}](${CDN}${filepath})`;
+  var img = `![${iconName}](${CDN_URL}${filepath})`;
   var exportedName = capitalize(iconName);
   var importPath = `@suitejs/icons/${setName}`;
   return `\n| ${img} | \`${exportedName}\` | \`${importPath}\` |`;
