@@ -3,4 +3,5 @@
  */
 module.exports = {
   sp: 'Social Platforms',
+  md: 'Material Design',
 };
