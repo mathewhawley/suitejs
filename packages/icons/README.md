@@ -28,7 +28,7 @@ class MyComponent extends React.Component {
   }
 }
 ```
-All exports are named - you can refer to the [docs](docs) for the full listings for each set.
+All exports are named - you can refer to the [docs](https://github.com/suitejs/suitejs/blob/master/packages/icons/docs) for the full listings for each set.
 
 If you are using **CommonJS** modules, you can access them like so:
 
