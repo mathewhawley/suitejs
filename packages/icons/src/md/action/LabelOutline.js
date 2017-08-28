@@ -1,0 +1,12 @@
+import React from 'react';
+import IconBase from '@suitejs/icon-base';
+
+function LabelOutline(props) {
+  return (
+    <IconBase viewBox="0 0 48 48" {...props}>
+      <path d="M34.27 11.69L43 24l-8.73 12.31A4.015 4.015 0 0 1 31 38l-22-.02c-2.21 0-4-1.77-4-3.98V14c0-2.21 1.79-3.98 4-3.98L31 10c1.35 0 2.54.67 3.27 1.69zM31 34l7.09-10L31 14H9v20h22z" />
+    </IconBase>
+  );
+}
+
+export default LabelOutline;
