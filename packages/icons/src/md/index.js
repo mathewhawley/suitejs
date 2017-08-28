@@ -464,3 +464,79 @@ export { default as MdFileUpload } from './file/FileUpload';
 export { default as MdFolder } from './file/Folder';
 export { default as MdFolderOpen } from './file/FolderOpen';
 export { default as MdFolderShared } from './file/FolderShared';
+export { default as MdAttachFile } from './editor/AttachFile';
+export { default as MdAttachMoney } from './editor/AttachMoney';
+export { default as MdBorderAll } from './editor/BorderAll';
+export { default as MdBorderBottom } from './editor/BorderBottom';
+export { default as MdBorderClear } from './editor/BorderClear';
+export { default as MdBorderColor } from './editor/BorderColor';
+export { default as MdBorderHorizontal } from './editor/BorderHorizontal';
+export { default as MdBorderInner } from './editor/BorderInner';
+export { default as MdBorderLeft } from './editor/BorderLeft';
+export { default as MdBorderOuter } from './editor/BorderOuter';
+export { default as MdBorderRight } from './editor/BorderRight';
+export { default as MdBorderStyle } from './editor/BorderStyle';
+export { default as MdBorderTop } from './editor/BorderTop';
+export { default as MdBorderVertical } from './editor/BorderVertical';
+export { default as MdBubbleChart } from './editor/BubbleChart';
+export { default as MdDragHandle } from './editor/DragHandle';
+export { default as MdFormatAlignCenter } from './editor/FormatAlignCenter';
+export { default as MdFormatAlignJustify } from './editor/FormatAlignJustify';
+export { default as MdFormatAlignLeft } from './editor/FormatAlignLeft';
+export { default as MdFormatAlignRight } from './editor/FormatAlignRight';
+export { default as MdFormatBold } from './editor/FormatBold';
+export { default as MdFormatClear } from './editor/FormatClear';
+export { default as MdFormatColorFill } from './editor/FormatColorFill';
+export { default as MdFormatColorReset } from './editor/FormatColorReset';
+export { default as MdFormatColorText } from './editor/FormatColorText';
+export {
+  default as MdFormatIndentDecrease,
+} from './editor/FormatIndentDecrease';
+export {
+  default as MdFormatIndentIncrease,
+} from './editor/FormatIndentIncrease';
+export { default as MdFormatItalic } from './editor/FormatItalic';
+export { default as MdFormatLineSpacing } from './editor/FormatLineSpacing';
+export { default as MdFormatListBulleted } from './editor/FormatListBulleted';
+export { default as MdFormatListNumbered } from './editor/FormatListNumbered';
+export { default as MdFormatPaint } from './editor/FormatPaint';
+export { default as MdFormatQuote } from './editor/FormatQuote';
+export { default as MdFormatShapes } from './editor/FormatShapes';
+export { default as MdFormatSize } from './editor/FormatSize';
+export { default as MdFormatStrikeThrough } from './editor/FormatStrikeThrough';
+export {
+  default as MdFormatTextDirectionLToR,
+} from './editor/FormatTextDirectionLToR';
+export {
+  default as MdFormatTextDirectionRToL,
+} from './editor/FormatTextDirectionRToL';
+export { default as MdFormatUnderlined } from './editor/FormatUnderlined';
+export { default as MdFunctions } from './editor/Functions';
+export { default as MdHighlight } from './editor/Highlight';
+export { default as MdInsertChart } from './editor/InsertChart';
+export { default as MdInsertComment } from './editor/InsertComment';
+export { default as MdInsertDriveFile } from './editor/InsertDriveFile';
+export { default as MdInsertEmoticon } from './editor/InsertEmoticon';
+export { default as MdInsertInvitation } from './editor/InsertInvitation';
+export { default as MdInsertLink } from './editor/InsertLink';
+export { default as MdInsertPhoto } from './editor/InsertPhoto';
+export { default as MdLinearScale } from './editor/LinearScale';
+export { default as MdMergeType } from './editor/MergeType';
+export { default as MdModeComment } from './editor/ModeComment';
+export { default as MdModeEdit } from './editor/ModeEdit';
+export { default as MdMonetizationOff } from './editor/MonetizationOff';
+export { default as MdMonetizationOn } from './editor/MonetizationOn';
+export { default as MdMultilineChart } from './editor/MultilineChart';
+export { default as MdPieChart } from './editor/PieChart';
+export { default as MdPieChartOutlined } from './editor/PieChartOutlined';
+export { default as MdPublish } from './editor/Publish';
+export { default as MdShortText } from './editor/ShortText';
+export { default as MdShowChart } from './editor/ShowChart';
+export { default as MdSpaceBar } from './editor/SpaceBar';
+export { default as MdStrikeThroughS } from './editor/StrikeThroughS';
+export { default as MdTextFields } from './editor/TextFields';
+export { default as MdTitle } from './editor/Title';
+export { default as MdVerticalAlignBottom } from './editor/VerticalAlignBottom';
+export { default as MdVerticalAlignCenter } from './editor/VerticalAlignCenter';
+export { default as MdVerticalAlignTop } from './editor/VerticalAlignTop';
+export { default as MdWrapText } from './editor/WrapText';
