@@ -1,7 +1,7 @@
 import React from 'react';
 import IconBase from '@suitejs/icon-base';
 
-function Whatsapp(props) {
+function SpWhatsapp(props) {
   return (
     <IconBase viewBox="0 0 48 48" {...props}>
       <g>
@@ -12,4 +12,4 @@ function Whatsapp(props) {
   );
 }
 
-export default Whatsapp;
+export default SpWhatsapp;

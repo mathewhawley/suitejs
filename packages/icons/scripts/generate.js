@@ -136,7 +136,8 @@ function processSvgFile(subdirs, filename) {
   var { name } = path.parse(filename);
   var srcFile = path.join(DIR_INPUT, subdirs, filename);
   var outFile = path.join(DIR_OUTPUT, subdirs, `${name}.js`);
-  fs.readFile(srcFile, 'utf-8', writeFile(outFile, name));
+  var [, setRoot] = subdirs.split('/');
+  fs.readFile(srcFile, 'utf-8', writeFile(outFile, setRoot + name));
 }
 
 /**
@@ -205,7 +206,11 @@ function addRowToDoc(subdirs, filename) {
   var { name } = path.parse(filename);
   var svgSrc = path.join(rootDir, rest.join('/'), `${name}.svg`);
 
-  var content = templates.iconMapRow(svgSrc, rootDir + name, rootDir);
+  var content = templates.iconMapRow(
+    svgSrc,
+    rootDir + name,
+    path.join(rootDir, rest.join('/'), name)
+  );
 
   appendFile(mapFilepath, content);
 }

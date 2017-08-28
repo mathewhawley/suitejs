@@ -31,15 +31,15 @@ exports.iconMap = function iconMapTemplate(title) {
  * @example
  * | ![SpFacebook](https:// ... ) | `SpFacebook` | `@suitejs/icons/sp` |
  *
- * @param {String} filepath relative path to SVG file
+ * @param {String} svgSrc relative path to SVG file
  * @param {String} iconName namespaced SVG file name
- * @param {String} setName set that the icon belongs to
+ * @param {String} location set that the icon belongs to
  * @returns {String}
  */
-exports.iconMapRow = function iconMapRowTemplate(filepath, iconName, setName) {
-  var img = `![${iconName}](${CDN_URL}${filepath})`;
+exports.iconMapRow = function iconMapRowTemplate(svgSrc, iconName, location) {
+  var img = `![${iconName}](${CDN_URL}${svgSrc})`;
   var exportedName = capitalize(iconName);
-  var importPath = `@suitejs/icons/${setName}`;
+  var importPath = `@suitejs/icons/${location}`;
   return `\n| ${img} | \`${exportedName}\` | \`${importPath}\` |`;
 };
 
@@ -48,15 +48,17 @@ exports.iconMapRow = function iconMapRowTemplate(filepath, iconName, setName) {
  *
  * @param {String} viewBox
  * @param {String} name
- * @param {String} children
+ * @param {String} htmlStr
  * @returns {String}
  */
-exports.component = function componentTemplate(viewBox, name, children) {
+exports.component = function componentTemplate(viewBox, name, htmlStr) {
+  var children = htmlStr.replace('fill-opacity', 'fillOpacity');
+  var moduleName = capitalize(name);
   return format(`
     import React from 'react';
     import IconBase from '@suitejs/icon-base';
 
-    function ${name}(props) {
+    function ${moduleName}(props) {
       return (
         <IconBase viewBox="${viewBox}" {...props}>
           ${children}
@@ -64,7 +66,7 @@ exports.component = function componentTemplate(viewBox, name, children) {
       );
     }
 
-    export default ${name};
+    export default ${moduleName};
   `);
 };
 

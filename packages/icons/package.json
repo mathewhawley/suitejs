@@ -20,12 +20,13 @@
   },
   "files": [
     "lib",
-    "sp"
+    "sp",
+    "md"
   ],
   "scripts": {
     "build:cjs": "BABEL_ENV=cjs babel src/ --out-dir lib/ --ignore spec.js",
     "build:es": "BABEL_ENV=es babel src/ --out-dir . --ignore spec.js",
-    "clean": "rimraf lib/ sp/",
+    "clean": "rimraf lib/ sp/ md/",
     "lint": "eslint src/ --cache --ext js,jsx",
     "pregen": "rimraf src/* docs/*",
     "gen": "node scripts/generate",

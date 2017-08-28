@@ -1,7 +1,7 @@
 import React from 'react';
 import IconBase from '@suitejs/icon-base';
 
-function GooglePlus(props) {
+function SpGooglePlus(props) {
   return (
     <IconBase viewBox="0 0 48 48" {...props}>
       <path d="M15.322 22.243h14.4c.13.762.24 1.524.24 2.527 0 8.713-5.839 14.9-14.64 14.9-8.43 0-15.249-6.818-15.249-15.249 0-8.43 6.819-15.25 15.25-15.25 4.117 0 7.559 1.504 10.216 3.987L21.4 17.145c-1.132-1.09-3.115-2.353-6.078-2.353-5.206 0-9.454 4.314-9.454 9.629 0 5.315 4.248 9.629 9.454 9.629 6.035 0 8.3-4.335 8.649-6.58h-8.649v-5.227zm32.677 0v4.356h-4.357v4.357h-4.356V26.6h-4.357v-4.356h4.357v-4.357h4.356v4.357H48z" />
@@ -9,4 +9,4 @@ function GooglePlus(props) {
   );
 }
 
-export default GooglePlus;
+export default SpGooglePlus;

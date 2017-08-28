@@ -1,7 +1,7 @@
 import React from 'react';
 import IconBase from '@suitejs/icon-base';
 
-function LinkedIn(props) {
+function SpLinkedIn(props) {
   return (
     <IconBase viewBox="0 0 48 48" {...props}>
       <path d="M39.361 6.038c1.468 0 2.662 1.162 2.662 2.595v30.794c0 1.434-1.194 2.597-2.662 2.597H8.692c-1.464 0-2.654-1.163-2.654-2.597V8.633c0-1.433 1.19-2.595 2.654-2.595h30.67zm-2.658 30.664v-9.418c0-4.625-.998-8.18-6.403-8.18-2.596 0-4.338 1.423-5.05 2.773h-.073v-2.348H20.06v17.173h5.33V28.21c0-2.242.424-4.412 3.202-4.412 2.74 0 2.773 2.562 2.773 4.553v8.352h5.337zm-22.66-19.52a3.095 3.095 0 1 0-.004-6.19 3.095 3.095 0 0 0 .004 6.19zm-2.673 19.52h5.343V19.53H11.37v17.173z" />
@@ -9,4 +9,4 @@ function LinkedIn(props) {
   );
 }
 
-export default LinkedIn;
+export default SpLinkedIn;
