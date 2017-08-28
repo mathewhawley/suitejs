@@ -408,3 +408,17 @@
 | ![mdTv](https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/md/hardware/Tv.svg) | `MdTv` | `@suitejs/icons/md` |
 | ![mdVideoGameAsset](https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/md/hardware/VideoGameAsset.svg) | `MdVideoGameAsset` | `@suitejs/icons/md` |
 | ![mdWatch](https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/md/hardware/Watch.svg) | `MdWatch` | `@suitejs/icons/md` |
+| ![mdAttachment](https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/md/file/Attachment.svg) | `MdAttachment` | `@suitejs/icons/md` |
+| ![mdCloud](https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/md/file/Cloud.svg) | `MdCloud` | `@suitejs/icons/md` |
+| ![mdCloudCircle](https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/md/file/CloudCircle.svg) | `MdCloudCircle` | `@suitejs/icons/md` |
+| ![mdCloudDone](https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/md/file/CloudDone.svg) | `MdCloudDone` | `@suitejs/icons/md` |
+| ![mdCloudDownload](https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/md/file/CloudDownload.svg) | `MdCloudDownload` | `@suitejs/icons/md` |
+| ![mdCloudOff](https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/md/file/CloudOff.svg) | `MdCloudOff` | `@suitejs/icons/md` |
+| ![mdCloudQueue](https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/md/file/CloudQueue.svg) | `MdCloudQueue` | `@suitejs/icons/md` |
+| ![mdCloudUpload](https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/md/file/CloudUpload.svg) | `MdCloudUpload` | `@suitejs/icons/md` |
+| ![mdCreateNewFolder](https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/md/file/CreateNewFolder.svg) | `MdCreateNewFolder` | `@suitejs/icons/md` |
+| ![mdFileDownload](https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/md/file/FileDownload.svg) | `MdFileDownload` | `@suitejs/icons/md` |
+| ![mdFileUpload](https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/md/file/FileUpload.svg) | `MdFileUpload` | `@suitejs/icons/md` |
+| ![mdFolder](https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/md/file/Folder.svg) | `MdFolder` | `@suitejs/icons/md` |
+| ![mdFolderOpen](https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/md/file/FolderOpen.svg) | `MdFolderOpen` | `@suitejs/icons/md` |
+| ![mdFolderShared](https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/md/file/FolderShared.svg) | `MdFolderShared` | `@suitejs/icons/md` |
