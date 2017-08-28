@@ -676,3 +676,65 @@ export { default as MdTextFormat } from './content/TextFormat';
 export { default as MdUnarchive } from './content/Unarchive';
 export { default as MdUndo } from './content/Undo';
 export { default as MdWeekend } from './content/Weekend';
+export { default as MdBusiness } from './communication/Business';
+export { default as MdCall } from './communication/Call';
+export { default as MdCallEnd } from './communication/CallEnd';
+export { default as MdCallMade } from './communication/CallMade';
+export { default as MdCallMerge } from './communication/CallMerge';
+export { default as MdCallMissed } from './communication/CallMissed';
+export {
+  default as MdCallMissedOutgoing,
+} from './communication/CallMissedOutgoing';
+export { default as MdCallReceived } from './communication/CallReceived';
+export { default as MdCallSplit } from './communication/CallSplit';
+export { default as MdChat } from './communication/Chat';
+export { default as MdChatBubble } from './communication/ChatBubble';
+export {
+  default as MdChatBubbleOutline,
+} from './communication/ChatBubbleOutline';
+export { default as MdClearAll } from './communication/ClearAll';
+export { default as MdComment } from './communication/Comment';
+export { default as MdContactMail } from './communication/ContactMail';
+export { default as MdContactPhone } from './communication/ContactPhone';
+export { default as MdContacts } from './communication/Contacts';
+export { default as MdDialerSip } from './communication/DialerSip';
+export { default as MdDialpad } from './communication/Dialpad';
+export { default as MdEmail } from './communication/Email';
+export { default as MdForum } from './communication/Forum';
+export { default as MdImportContacts } from './communication/ImportContacts';
+export { default as MdImportExport } from './communication/ImportExport';
+export { default as MdInvertColorsOff } from './communication/InvertColorsOff';
+export { default as MdLiveHelp } from './communication/LiveHelp';
+export { default as MdLocation } from './communication/Location';
+export { default as MdLocationOff } from './communication/LocationOff';
+export { default as MdMailOutline } from './communication/MailOutline';
+export { default as MdMessage } from './communication/Message';
+export { default as MdNoSim } from './communication/NoSim';
+export { default as MdPhone } from './communication/Phone';
+export { default as MdPhonelinkErase } from './communication/PhonelinkErase';
+export { default as MdPhonelinkLock } from './communication/PhonelinkLock';
+export { default as MdPhonelinkRing } from './communication/PhonelinkRing';
+export { default as MdPhonelinkSetup } from './communication/PhonelinkSetup';
+export { default as MdPortableWifiOff } from './communication/PortableWifiOff';
+export { default as MdPresentToAll } from './communication/PresentToAll';
+export { default as MdRingVolume } from './communication/RingVolume';
+export { default as MdRssFeed } from './communication/RssFeed';
+export { default as MdScreenShare } from './communication/ScreenShare';
+export { default as MdSpeakerPhone } from './communication/SpeakerPhone';
+export {
+  default as MdStayCurrentLandscape,
+} from './communication/StayCurrentLandscape';
+export {
+  default as MdStayCurrentPortrait,
+} from './communication/StayCurrentPortrait';
+export {
+  default as MdStayPrimaryLandscape,
+} from './communication/StayPrimaryLandscape';
+export {
+  default as MdStayPrimaryPortrait,
+} from './communication/StayPrimaryPortrait';
+export { default as MdStopScreenShare } from './communication/StopScreenShare';
+export { default as MdSwapCalls } from './communication/SwapCalls';
+export { default as MdTextSms } from './communication/TextSms';
+export { default as MdVoicemail } from './communication/Voicemail';
+export { default as MdVpnKey } from './communication/VpnKey';
