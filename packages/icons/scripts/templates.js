@@ -48,10 +48,11 @@ exports.iconMapRow = function iconMapRowTemplate(filepath, iconName, setName) {
  *
  * @param {String} viewBox
  * @param {String} name
- * @param {String} children
+ * @param {String} htmlStr
  * @returns {String}
  */
-exports.component = function componentTemplate(viewBox, name, children) {
+exports.component = function componentTemplate(viewBox, name, htmlStr) {
+  var children = htmlStr.replace('fill-opacity', 'fillOpacity');
   return format(`
     import React from 'react';
     import IconBase from '@suitejs/icon-base';

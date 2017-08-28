@@ -540,3 +540,96 @@ export { default as MdVerticalAlignBottom } from './editor/VerticalAlignBottom';
 export { default as MdVerticalAlignCenter } from './editor/VerticalAlignCenter';
 export { default as MdVerticalAlignTop } from './editor/VerticalAlignTop';
 export { default as MdWrapText } from './editor/WrapText';
+export { default as MdAccessAlarm } from './device/AccessAlarm';
+export { default as MdAccessAlarms } from './device/AccessAlarms';
+export { default as MdAccessTime } from './device/AccessTime';
+export { default as MdAddAlarm } from './device/AddAlarm';
+export { default as MdAirplaneModeActive } from './device/AirplaneModeActive';
+export {
+  default as MdAirplaneModeInactive,
+} from './device/AirplaneModeInactive';
+export { default as MdBattery20 } from './device/Battery20';
+export { default as MdBattery30 } from './device/Battery30';
+export { default as MdBattery50 } from './device/Battery50';
+export { default as MdBattery60 } from './device/Battery60';
+export { default as MdBattery80 } from './device/Battery80';
+export { default as MdBattery90 } from './device/Battery90';
+export { default as MdBatteryAlert } from './device/BatteryAlert';
+export { default as MdBatteryCharging20 } from './device/BatteryCharging20';
+export { default as MdBatteryCharging30 } from './device/BatteryCharging30';
+export { default as MdBatteryCharging50 } from './device/BatteryCharging50';
+export { default as MdBatteryCharging60 } from './device/BatteryCharging60';
+export { default as MdBatteryCharging80 } from './device/BatteryCharging80';
+export { default as MdBatteryCharging90 } from './device/BatteryCharging90';
+export { default as MdBatteryChargingFull } from './device/BatteryChargingFull';
+export { default as MdBatteryFull } from './device/BatteryFull';
+export { default as MdBatteryStd } from './device/BatteryStd';
+export { default as MdBatteryUnknown } from './device/BatteryUnknown';
+export { default as MdBluetooth } from './device/Bluetooth';
+export { default as MdBluetoothConnected } from './device/BluetoothConnected';
+export { default as MdBluetoothDisabled } from './device/BluetoothDisabled';
+export { default as MdBluetoothSearching } from './device/BluetoothSearching';
+export { default as MdBrightnessAuto } from './device/BrightnessAuto';
+export { default as MdBrightnessHigh } from './device/BrightnessHigh';
+export { default as MdBrightnessLow } from './device/BrightnessLow';
+export { default as MdBrightnessMedium } from './device/BrightnessMedium';
+export { default as MdDataUsage } from './device/DataUsage';
+export { default as MdDeveloperMode } from './device/DeveloperMode';
+export { default as MdDevices } from './device/Devices';
+export { default as MdDvr } from './device/Dvr';
+export { default as MdGpsFixed } from './device/GpsFixed';
+export { default as MdGpsNotFixed } from './device/GpsNotFixed';
+export { default as MdGpsOff } from './device/GpsOff';
+export { default as MdGraphicEq } from './device/GraphicEq';
+export { default as MdLocationDisabled } from './device/LocationDisabled';
+export { default as MdLocationSearching } from './device/LocationSearching';
+export { default as MdNetworkCell } from './device/NetworkCell';
+export { default as MdNetworkWifi } from './device/NetworkWifi';
+export { default as MdNfc } from './device/Nfc';
+export { default as MdScreenLockLandscape } from './device/ScreenLockLandscape';
+export { default as MdScreenLockPortrait } from './device/ScreenLockPortrait';
+export { default as MdScreenLockRotation } from './device/ScreenLockRotation';
+export { default as MdScreenRotation } from './device/ScreenRotation';
+export { default as MdSdStorage } from './device/SdStorage';
+export {
+  default as MdSettingsSystemDaydream,
+} from './device/SettingsSystemDaydream';
+export { default as MdSignalCellular0Bar } from './device/SignalCellular0Bar';
+export { default as MdSignalCellular1Bar } from './device/SignalCellular1Bar';
+export { default as MdSignalCellular2Bar } from './device/SignalCellular2Bar';
+export { default as MdSignalCellular3Bar } from './device/SignalCellular3Bar';
+export { default as MdSignalCellular4Bar } from './device/SignalCellular4Bar';
+export {
+  default as MdSignalCellularConnectedNoInternet0Bar,
+} from './device/SignalCellularConnectedNoInternet0Bar';
+export {
+  default as MdSignalCellularConnectedNoInternet1Bar,
+} from './device/SignalCellularConnectedNoInternet1Bar';
+export {
+  default as MdSignalCellularConnectedNoInternet2Bar,
+} from './device/SignalCellularConnectedNoInternet2Bar';
+export {
+  default as MdSignalCellularConnectedNoInternet3Bar,
+} from './device/SignalCellularConnectedNoInternet3Bar';
+export {
+  default as MdSignalCellularConnectedNoInternet4Bar,
+} from './device/SignalCellularConnectedNoInternet4Bar';
+export { default as MdSignalCellularNoSim } from './device/SignalCellularNoSim';
+export { default as MdSignalCellularNull } from './device/SignalCellularNull';
+export { default as MdSignalCellularOff } from './device/SignalCellularOff';
+export { default as MdSignalWifi0Bar } from './device/SignalWifi0Bar';
+export { default as MdSignalWifi1Bar } from './device/SignalWifi1Bar';
+export { default as MdSignalWifi1BarLock } from './device/SignalWifi1BarLock';
+export { default as MdSignalWifi2Bar } from './device/SignalWifi2Bar';
+export { default as MdSignalWifi2BarLock } from './device/SignalWifi2BarLock';
+export { default as MdSignalWifi3Bar } from './device/SignalWifi3Bar';
+export { default as MdSignalWifi3BarLock } from './device/SignalWifi3BarLock';
+export { default as MdSignalWifi4Bar } from './device/SignalWifi4Bar';
+export { default as MdSignalWifi4BarLock } from './device/SignalWifi4BarLock';
+export { default as MdSignalWifi4Off } from './device/SignalWifi4Off';
+export { default as MdStorage } from './device/Storage';
+export { default as MdUsb } from './device/Usb';
+export { default as MdWallpaper } from './device/Wallpaper';
+export { default as MdWidgets } from './device/Widgets';
+export { default as MdWifiLock } from './device/WifiLock';
+export { default as MdWifiTethering } from './device/WifiTethering';
