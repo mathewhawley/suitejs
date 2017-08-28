@@ -20,8 +20,8 @@
   },
   "files": [
     "lib",
-    "sp",
-    "md"
+    "md",
+    "sp"
   ],
   "scripts": {
     "build:cjs": "BABEL_ENV=cjs babel src/ --out-dir lib/ --ignore spec.js",
