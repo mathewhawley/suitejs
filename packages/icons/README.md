@@ -12,38 +12,29 @@ $ npm install --save @suitejs/icons
 
 ## Usage
 
-Icon sets are located in name-spaced directories. For example, if you wanted to use a Facebook icon you would find it under the 'Social Platforms' set:
+Icon sets are located in name-spaced directories. You can use named imports (if your toolchain supports tree-shaking or dead-code elimination), or import icon modules individually:
 
 ```js
-import React from 'react';
 import { SpFacebook } from '@suitejs/icons/sp';
-
-class MyComponent extends React.Component {
-  render() {
-    return (
-      <a href="...">
-        <SpFacebook /> Follow us on Facebook
-      </a>
-    );
-  }
-}
 ```
 
-If you are not using Webpack or Rollup and can't take advantage of 'tree-shaking' and dead-code elimination, you can import icon modules individually:
+or
 
 ```js
 import SpFacebook from '@suitejs/icons/sp/Facebook';
 ```
 
-You can find all import paths in the [docs](https://github.com/suitejs/suitejs/blob/master/packages/icons/docs).
+> ℹ️  You can find all import paths in the [docs](https://github.com/suitejs/suitejs/blob/master/packages/icons/docs).
 
-If you are using **CommonJS** modules, you can access them like so:
+---
+
+If you are using **CommonJS** modules, you will find them under the `/lib` directory:
 
 ```js
 var SpFacebook = require('@suitejs/icons/lib/sp').SpFacebook;
 ```
 
-or, if your environment supports ES6 destructuring syntax:
+If your environment supports ES6 destructuring syntax:
 
 ```js
 var { SpFacebook, SpYouTube } = require('@suitejs/icons/lib/sp');
@@ -55,8 +46,17 @@ You can also access modules individually:
 var SpYouTube = require('@suitejs/icons/lib/sp/YouTube');
 ```
 
+## Configuration
 
 `icons` uses [`icon-base`](https://github.com/suitejs/suitejs/tree/master/packages/icon-base) to set common settings. You can configure global settings for all your icons via React's context API. You can roll your own 'provider', or use the [`IconProvider`](https://github.com/suitejs/suitejs/tree/master/packages/icon-base#global-configuration) from the [`icon-base`](https://github.com/suitejs/suitejs/tree/master/packages/icon-base) package.
+
+Global settings can be overriden inline:
+
+```js
+<CheckBox fill="#000000" size="0.75em" aria-hidden={false} />
+```
+
+To see what defaults are applied, refer to the [`icon-base`](https://github.com/suitejs/suitejs/tree/master/packages/icon-base) documentation.
 
 ## Sets
 
