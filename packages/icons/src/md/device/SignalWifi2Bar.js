@@ -1,7 +1,7 @@
 import React from 'react';
 import IconBase from '@suitejs/icon-base';
 
-function SignalWifi2Bar(props) {
+function MdSignalWifi2Bar(props) {
   return (
     <IconBase viewBox="0 0 48 48" {...props}>
       <g>
@@ -15,4 +15,4 @@ function SignalWifi2Bar(props) {
   );
 }
 
-export default SignalWifi2Bar;
+export default MdSignalWifi2Bar;

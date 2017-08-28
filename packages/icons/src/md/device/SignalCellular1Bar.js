@@ -1,7 +1,7 @@
 import React from 'react';
 import IconBase from '@suitejs/icon-base';
 
-function SignalCellular1Bar(props) {
+function MdSignalCellular1Bar(props) {
   return (
     <IconBase viewBox="0 0 48 48" {...props}>
       <g>
@@ -12,4 +12,4 @@ function SignalCellular1Bar(props) {
   );
 }
 
-export default SignalCellular1Bar;
+export default MdSignalCellular1Bar;

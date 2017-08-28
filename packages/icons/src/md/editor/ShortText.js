@@ -1,7 +1,7 @@
 import React from 'react';
 import IconBase from '@suitejs/icon-base';
 
-function ShortText(props) {
+function MdShortText(props) {
   return (
     <IconBase viewBox="0 0 48 48" {...props}>
       <path d="M8 18h32v4H8v-4zm0 8h20v4H8v-4z" />
@@ -9,4 +9,4 @@ function ShortText(props) {
   );
 }
 
-export default ShortText;
+export default MdShortText;

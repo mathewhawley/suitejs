@@ -1,7 +1,7 @@
 import React from 'react';
 import IconBase from '@suitejs/icon-base';
 
-function NetworkCell(props) {
+function MdNetworkCell(props) {
   return (
     <IconBase viewBox="0 0 48 48" {...props}>
       <g>
@@ -12,4 +12,4 @@ function NetworkCell(props) {
   );
 }
 
-export default NetworkCell;
+export default MdNetworkCell;

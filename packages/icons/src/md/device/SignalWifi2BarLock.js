@@ -1,7 +1,7 @@
 import React from 'react';
 import IconBase from '@suitejs/icon-base';
 
-function SignalWifi2BarLock(props) {
+function MdSignalWifi2BarLock(props) {
   return (
     <IconBase viewBox="0 0 48 48" {...props}>
       <g>
@@ -15,4 +15,4 @@ function SignalWifi2BarLock(props) {
   );
 }
 
-export default SignalWifi2BarLock;
+export default MdSignalWifi2BarLock;

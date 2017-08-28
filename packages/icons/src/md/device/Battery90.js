@@ -1,7 +1,7 @@
 import React from 'react';
 import IconBase from '@suitejs/icon-base';
 
-function Battery90(props) {
+function MdBattery90(props) {
   return (
     <IconBase viewBox="0 0 48 48" {...props}>
       <g>
@@ -15,4 +15,4 @@ function Battery90(props) {
   );
 }
 
-export default Battery90;
+export default MdBattery90;

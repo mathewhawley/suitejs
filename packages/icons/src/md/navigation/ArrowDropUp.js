@@ -1,7 +1,7 @@
 import React from 'react';
 import IconBase from '@suitejs/icon-base';
 
-function ArrowDropUp(props) {
+function MdArrowDropUp(props) {
   return (
     <IconBase viewBox="0 0 48 48" {...props}>
       <polygon points="14 29 24 19 34 29" />
@@ -9,4 +9,4 @@ function ArrowDropUp(props) {
   );
 }
 
-export default ArrowDropUp;
+export default MdArrowDropUp;

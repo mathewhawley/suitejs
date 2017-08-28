@@ -1,7 +1,7 @@
 import React from 'react';
 import IconBase from '@suitejs/icon-base';
 
-function Style(props) {
+function MdStyle(props) {
   return (
     <IconBase viewBox="0 0 48 48" {...props}>
       <path d="M5.462 38.81l2.69 1.11V21.87l-4.85 11.71c-.84 2.03.13 4.38 2.16 5.23zm39-7.42c.84 2.03-.14 4.37-2.17 5.21l-14.73 6.1c-.51.21-1.03.3-1.55.3-1.56-.02-3.03-.94-3.66-2.46l-9.91-23.93c-.22-.53-.31-1.07-.3-1.61.04-1.53.96-2.98 2.46-3.6l14.73-6.1c.53-.21 1.07-.31 1.6-.3 1.53.03 2.99.96 3.61 2.46l9.92 23.93zM16.152 17c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm-4 22c0 2.2 1.8 4 4 4h2.91l-6.91-16.68V39z" />
@@ -9,4 +9,4 @@ function Style(props) {
   );
 }
 
-export default Style;
+export default MdStyle;

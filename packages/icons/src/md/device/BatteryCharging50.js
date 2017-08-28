@@ -1,7 +1,7 @@
 import React from 'react';
 import IconBase from '@suitejs/icon-base';
 
-function BatteryCharging50(props) {
+function MdBatteryCharging50(props) {
   return (
     <IconBase viewBox="0 0 48 48" {...props}>
       <g>
@@ -15,4 +15,4 @@ function BatteryCharging50(props) {
   );
 }
 
-export default BatteryCharging50;
+export default MdBatteryCharging50;

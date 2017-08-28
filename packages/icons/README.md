@@ -28,7 +28,14 @@ class MyComponent extends React.Component {
   }
 }
 ```
-All exports are named - you can refer to the [docs](https://github.com/suitejs/suitejs/blob/master/packages/icons/docs) for the full listings for each set.
+
+If you are not using Webpack or Rollup and can't take advantage of 'tree-shaking' and dead-code elimination, you can import icon modules individually:
+
+```js
+import SpFacebook from '@suitejs/icons/sp/Facebook';
+```
+
+You can find all import paths in the [docs](https://github.com/suitejs/suitejs/blob/master/packages/icons/docs).
 
 If you are using **CommonJS** modules, you can access them like so:
 
@@ -41,6 +48,13 @@ or, if your environment supports ES6 destructuring syntax:
 ```js
 var { SpFacebook, SpYouTube } = require('@suitejs/icons/lib/sp');
 ```
+
+You can also access modules individually:
+
+```js
+var SpYouTube = require('@suitejs/icons/lib/sp/YouTube');
+```
+
 
 `icons` uses [`icon-base`](https://github.com/suitejs/suitejs/tree/master/packages/icon-base) to set common settings. You can configure global settings for all your icons via React's context API. You can roll your own 'provider', or use the [`IconProvider`](https://github.com/suitejs/suitejs/tree/master/packages/icon-base#global-configuration) from the [`icon-base`](https://github.com/suitejs/suitejs/tree/master/packages/icon-base) package.
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import IconBase from '@suitejs/icon-base';
 
-function SignalCellularConnectedNoInternet3Bar(props) {
+function MdSignalCellularConnectedNoInternet3Bar(props) {
   return (
     <IconBase viewBox="0 0 48 48" {...props}>
       <g>
@@ -12,4 +12,4 @@ function SignalCellularConnectedNoInternet3Bar(props) {
   );
 }
 
-export default SignalCellularConnectedNoInternet3Bar;
+export default MdSignalCellularConnectedNoInternet3Bar;

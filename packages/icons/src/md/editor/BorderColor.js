@@ -1,7 +1,7 @@
 import React from 'react';
 import IconBase from '@suitejs/icon-base';
 
-function BorderColor(props) {
+function MdBorderColor(props) {
   return (
     <IconBase viewBox="0 0 48 48" {...props}>
       <g>
@@ -15,4 +15,4 @@ function BorderColor(props) {
   );
 }
 
-export default BorderColor;
+export default MdBorderColor;
