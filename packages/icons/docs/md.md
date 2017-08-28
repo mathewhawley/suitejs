@@ -739,3 +739,7 @@
 | ![mdVolumeUp](https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/md/av/VolumeUp.svg) | `MdVolumeUp` | `@suitejs/icons/md` |
 | ![mdWeb](https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/md/av/Web.svg) | `MdWeb` | `@suitejs/icons/md` |
 | ![mdWebAsset](https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/md/av/WebAsset.svg) | `MdWebAsset` | `@suitejs/icons/md` |
+| ![mdAddAlert](https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/md/alert/AddAlert.svg) | `MdAddAlert` | `@suitejs/icons/md` |
+| ![mdError](https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/md/alert/Error.svg) | `MdError` | `@suitejs/icons/md` |
+| ![mdErrorOutline](https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/md/alert/ErrorOutline.svg) | `MdErrorOutline` | `@suitejs/icons/md` |
+| ![mdWarning](https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/md/alert/Warning.svg) | `MdWarning` | `@suitejs/icons/md` |

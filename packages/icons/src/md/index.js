@@ -817,3 +817,7 @@ export { default as MdVolumeOff } from './av/VolumeOff';
 export { default as MdVolumeUp } from './av/VolumeUp';
 export { default as MdWeb } from './av/Web';
 export { default as MdWebAsset } from './av/WebAsset';
+export { default as MdAddAlert } from './alert/AddAlert';
+export { default as MdError } from './alert/Error';
+export { default as MdErrorOutline } from './alert/ErrorOutline';
+export { default as MdWarning } from './alert/Warning';
