@@ -16,6 +16,7 @@ export { default as SpPinterest } from './Pinterest';
 export { default as SpRenRen } from './RenRen';
 export { default as SpSkype } from './Skype';
 export { default as SpSnapChat } from './SnapChat';
+export { default as SpStumbleUpon } from './StumbleUpon';
 export { default as SpTumblr } from './Tumblr';
 export { default as SpTwitch } from './Twitch';
 export { default as SpTwitter } from './Twitter';

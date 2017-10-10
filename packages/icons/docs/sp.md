@@ -20,6 +20,7 @@
 | ![spRenRen](https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/sp/RenRen.svg) | `SpRenRen` | `@suitejs/icons/sp/RenRen` |
 | ![spSkype](https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/sp/Skype.svg) | `SpSkype` | `@suitejs/icons/sp/Skype` |
 | ![spSnapChat](https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/sp/SnapChat.svg) | `SpSnapChat` | `@suitejs/icons/sp/SnapChat` |
+| ![spStumbleUpon](https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/sp/StumbleUpon.svg) | `SpStumbleUpon` | `@suitejs/icons/sp/StumbleUpon` |
 | ![spTumblr](https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/sp/Tumblr.svg) | `SpTumblr` | `@suitejs/icons/sp/Tumblr` |
 | ![spTwitch](https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/sp/Twitch.svg) | `SpTwitch` | `@suitejs/icons/sp/Twitch` |
 | ![spTwitter](https://cdn.rawgit.com/suitejs/suitejs/master/packages/icons/svg/sp/Twitter.svg) | `SpTwitter` | `@suitejs/icons/sp/Twitter` |
