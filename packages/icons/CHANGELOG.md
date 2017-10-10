@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.3.0"></a>
+# [0.3.0](https://github.com/suitejs/suitejs/compare/@suitejs/icons@0.2.1...@suitejs/icons@0.3.0) (2017-10-10)
+
+
+### Features
+
+* **icons:** add 'Stumble Upon' icon to social set ([fbfae4e](https://github.com/suitejs/suitejs/commit/fbfae4e))
+
+
+
+
 <a name="0.2.1"></a>
 ## [0.2.1](https://github.com/suitejs/suitejs/compare/@suitejs/icons@0.2.0...@suitejs/icons@0.2.1) (2017-08-28)
 
