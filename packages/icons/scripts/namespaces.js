@@ -4,5 +4,5 @@
 module.exports = {
   sp: 'Social Platforms',
   md: 'Material Design',
-  dv: 'Developer Icons',
+  dv: 'Developer',
 };
