@@ -64,6 +64,7 @@ To see what defaults are applied, refer to the [`icon-base`](https://github.com/
 | --- | --- |
 | [Social Platforms](https://github.com/suitejs/suitejs/blob/master/packages/icons/docs/sp.md) | `@suitejs/icons/sp` |
 | [Material Design](https://github.com/suitejs/suitejs/blob/master/packages/icons/docs/md.md) | `@suitejs/icons/md` |
+| [Developer](https://github.com/suitejs/suitejs/blob/master/packages/icons/docs/dv.md) | `@suitejs/icons/dv`
 
 ## Goals
 

@@ -1,4 +1,4 @@
-# Developer Icons
+# Developer
 
 | Icon | Name | Location |
 | --- | --- | --- |
